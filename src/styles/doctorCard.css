@@ -1,0 +1,36 @@
+body {
+	background-color: #6ed880;
+}
+
+.card-container {
+	border-bottom-left-radius: 1.5rem !important;
+	border-bottom-right-radius: 1.5rem !important;
+	width: 100%;
+	font-weight: bold;
+}
+
+.details-card {
+	padding: 0.5rem 1.65rem;
+	border-radius: 1rem !important;
+}
+.details-card p {
+	font-weight: bold;
+	color: grey;
+}
+.details-card span {
+	font-size: 0.8rem;
+}
+.text-heading {
+	color: white;
+	margin-top: 1rem;
+	font-weight: bold;
+	font-size: 1.3rem;
+}
+
+.flexMe {
+	flex-basis: 100%;
+	justify-content: space-around;
+}
+.createSpace {
+	padding: 0.5rem 2.8rem;
+}

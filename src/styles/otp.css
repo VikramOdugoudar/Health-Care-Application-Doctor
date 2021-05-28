@@ -1,0 +1,48 @@
+.otp-style {
+  transform: translate(-50%, -50%);
+  background-color: white;
+  height: 70%;
+  width: 70%;
+  border-radius: 5%;
+}
+.otp-class {
+  margin-top: 15%;
+  
+}
+.otp-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.otp-logo {
+  background-color: #6ed880;
+  width: fit-content;
+}
+
+.btn-primary {
+  border: none !important;
+  background-color: #6ed880 !important;
+  font-size: 1rem !important;
+  
+
+
+}
+.close-btn {
+  border: none;
+  background-color: white;
+  color: red;
+  margin-left: 15px;
+}
+input  {
+  background-color: white;
+  border: 0;
+  outline: 0;
+  border-bottom: 1px solid rgb(219, 206, 206);
+}
+/* a{
+  text-decoration: underline;
+  text-decoration-color: #6ed880;
+} */
+.verify a{
+   text-decoration: none;
+   color: black;
+}
+

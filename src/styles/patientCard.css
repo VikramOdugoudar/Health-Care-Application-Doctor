@@ -1,0 +1,16 @@
+.bg-green {
+	background-color: #6ed880;
+	height: 100%;
+	width: 100vw;
+}
+
+.card-container {
+	border-bottom-left-radius: 1.5rem !important;
+	border-bottom-right-radius: 1.5rem !important;
+	width: 100%;
+	font-weight: bold;
+}
+
+.light-heading {
+	color: white;
+}
