@@ -1,7 +1,9 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "../styles/aboutpage.css";
 const AboutPage = () => {
 	return (
+		<NavLink exact to="/login">
 		<div className="about vw-100 vh-100 text-white">
 			<div className="logo w-100 d-flex flex-column justify-content-center align-items-center">
 				<div className="display-1 fw-normal">C</div>
@@ -14,6 +16,7 @@ const AboutPage = () => {
 				<p>Curilux India Pvt. Ltd. 2021</p>
 			</footer>
 		</div>
+		</NavLink>
 	);
 };
 
