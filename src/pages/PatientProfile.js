@@ -2,11 +2,12 @@ import React from "react";
 import "../styles/patientCard.css";
 import ProfileCard from "../components/ProfileCard";
 import PatientCard from "../components/PatientCard";
-
+import { NavLink } from "react-router-dom";
 const PatientProfile = () => {
 	return (
-		<div className="container  bg-black">
+		<div className="container text-center bg-black">
 			<PatientCard />
+			<div className="patient">
 			<ProfileCard
 				text1="Feed"
 				text2="Compliance"
@@ -25,6 +26,12 @@ const PatientProfile = () => {
 				numbers1="12/6/2020"
 				numbers2="Hubballi"
 			/>
+			</div>
+			
+			<button className="btn btn-primary mb-3 ">
+				
+				<NavLink exact to="/doctorProfile">View Your Profile</NavLink>
+			</button>
 		</div>
 	);
 };
